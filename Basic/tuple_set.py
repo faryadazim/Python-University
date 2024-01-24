@@ -7,13 +7,13 @@ fruits = ('Apples', 'Oranges', 'Grapes')
 # fruits2 = tuple(('Apples', 'Oranges', 'Grapes'))
 
 # Single value needs trailing comma
-fruits2 = ('Apples',)
+fruits2 = ('Apples',) ##### 
 
 # Get value
 print(fruits[1])
 
 # Can't change value
-fruits[0] = 'Pears'
+# fruits[0] = 'Pears'
 
 # Delete tuple
 del fruits2
@@ -45,4 +45,4 @@ fruits_set.clear()
 # Delete
 del fruits_set
 
-print(fruits_set)
+# print(fruits_set)
